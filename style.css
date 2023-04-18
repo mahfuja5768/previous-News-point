@@ -1,0 +1,32 @@
+.categoryLi{
+    list-style: none;
+    color: rgb(100, 100, 100);
+    cursor: pointer;
+}
+#news-container{
+    margin-top: 50px;
+}
+#news-container .card-text{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card{
+    max-width: 90%;
+    border: 0px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+#underline-nav{
+    border-bottom: 3px solid rgb(77, 77, 244);
+    padding-right: 20px;
+}
+#news-categories-name .categoryLi{
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+}
+#news-categories-name .categoryLi:hover{
+   color:rgb(77, 77, 244);
+   transform: scale(1.05);
+   transition: 0.5s ease-in-out;
+}
